@@ -11,7 +11,7 @@ export default function App() {
   useEffect(() => {
       const fetchData = async () => {
           try {
-              const response = await axios.get('https://www.googleapis.com/youtube/v3/search?key=AIzaSyDZsIXENje2lkbScHg2cWcO1NVBVGQwSAQ', {
+              const response = await axios.get('https://www.googleapis.com/youtube/v3/search?key=YOUR API KEY', {
                   params: {
                       key: 'YOUR_YOUTUBE_API_KEY',
                       part: 'snippet',
