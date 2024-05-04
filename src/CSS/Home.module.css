@@ -1,0 +1,39 @@
+
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(58, 4, 4);
+}
+.container{
+    width: 400px;
+    height: 400px;
+}
+/* youtube.module.css */
+
+.cardContainer {
+    width: 400px;
+    height: 400px;
+}
+
+.card {
+    width: 25rem;
+    height: 100vh;
+    margin-top: 2rem;
+    border: none;
+    border-color: white;
+}
+.cardbody{
+    height: 7rem;
+}
+.player{
+    border-radius: 5vh;
+}
+.input{
+    width: 50vh;
+    border-radius: 5px;
+    padding: 2px;
+    border-color: black;
+}
+.input:focus{
+    border: 2px;
+}

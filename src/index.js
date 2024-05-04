@@ -1,8 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
+import { initializeApp } from 'firebase/app';
+
+// Your Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAB68cz-jEbBZu1FkersDrNmswxoFGdHjM",
+  authDomain: "clone-df517.firebaseapp.com",
+  projectId: "clone-df517",
+  storageBucket: "clone-df517.appspot.com",
+  messagingSenderId: "160996565628",
+  appId: "1:160996565628:web:962b38bc797b9a7b0f5ff9"
+};
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
